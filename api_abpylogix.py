@@ -25,7 +25,7 @@ logging.basicConfig(
         logging.StreamHandler()  # Log to console
     ]
 )
-
+#is this shit working??
 @app.route('/api/gettaglist', methods=['GET'])
 def get_tag_list():
     try:
